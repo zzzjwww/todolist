@@ -14,7 +14,7 @@ html {
     flex-wrap: nowrap;
     flex-flow: center;
     align-items: flex-start;
-    min-width: 600px;
+    width: 600px;
     margin: auto;
     padding: 15px;
 }
@@ -41,7 +41,7 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: cornsilk;
+    background-color: rgb(219, 243, 247);
     box-shadow: 3px 3px rgb(0, 0, 0);
     border: none;
     border-radius: 2px;
@@ -52,6 +52,7 @@ html {
     border: none;
     border-radius: 2px;
     background-color: chartreuse;
+    box-shadow: 3px 3px rgb(0, 0, 0);
     font-size: 1.2rem;
 }
 #list{
