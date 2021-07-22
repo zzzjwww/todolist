@@ -13,7 +13,7 @@ html {
     flex-direction: column;
     flex-wrap: nowrap;
     flex-flow: center;
-    align-items: flex-start;
+    align-items: center;
     width: 600px;
     margin: auto;
     padding: 15px;
@@ -56,11 +56,14 @@ html {
     font-size: 1.2rem;
 }
 #list{
+    width: 450px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: stretch;
 }
 #list li{
+    margin-top: 10px;
     width: 90%;
     display: flex;
     flex-direction: row;
@@ -82,6 +85,8 @@ input[type=checkbox]:checked + label {
     border: none;
     border-radius: 2px;
     background-color:cornflowerblue;
+    align-self: flex-end;
+    margin-left: 2rem;
 }
 #list input{
     border: none;
