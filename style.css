@@ -73,6 +73,7 @@ html {
 }
 #list li label{
     text-align: left;
+    width: 400px;
 
 }
 
